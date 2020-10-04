@@ -1,5 +1,8 @@
 <?php
+#include the pictures of the participants
+
 session_start();
+include<iostream>
 include("Assets/php/dbconfig.php");
 function alert($msg) {
     echo "<script type='text/javascript'>alert('$msg');</script>";
